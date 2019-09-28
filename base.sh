@@ -6,7 +6,8 @@ sudo apt-get install -y \
         ca-certificates \
         curl \
         gnupg-agent \
-        software-properties-common
+        software-properties-common \
+        tmux
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
